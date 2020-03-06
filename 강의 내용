@@ -1,0 +1,65 @@
+강의 내용
+<!Doctype html>
+html 문서는 <html>로 시작 </html> 로 끝남
+속성은 html 요소에 대한 추가 정보를 제공
+속성은 항상 시작 태그에 지정
+속성은 일반적으로 name="value" 와 같은 이름과 값의 쌍으로 제공
+ex) <a href="https://www.naver.com">네이버 검색 </a>
+<p title="00000">그대의 가능성을 꽃피우다</p>  ""를 내용안에 쓰고 싶으면 ''를 밖에 사용
+href 는 링크 속성
+<a href="https://사이트주소입력">네이버 검색 </a>
+
+alt속성
+이미지를 표시 할 수 없을 경우 사용할 대체 텍스트를 지정합니다.
+화면리더기는 alt 속성 값을 읽을 수 있음
+시각 장애가 있는 사람이 웹페이지를 소리로 이용 할 수 있음
+ex) <img src="000" alt 웹디자인>
+
+lang속성
+문서의 언어는 <html>태그에서 선언 될 수 있습니다.
+언어는 lang 속성으로 선언됩니다.
+접근성 응용 프로그램 (스크린 리더) 및 검색 엔진에는 언어 선언이 중요합니다.
+한국어는 ko로 지정
+ex) <!Doctype html>
+<html lang="ko">
+<body></body>
+
+스타일 속성
+background-color -> 배경색 정의
+font-family ->글꼴 정의
+주석은 <!---->사용
+<body style="margin: 0"; "padding: 0"; "border: 0"> 좌우위아래 공백 없애기
+
+3월6일
+HTML버전
+1. HTML5 -> <!DOCTYPE html.>
+2. HTML 4.01 (strict)
+3. XHTML 1.0 -> 확장 HTML : 스마트 TV 등에서도 HTML이 사용 되게 할 수 있음 (소문자로만 사용해야 함)
+
+doctype 별 문법 검사
+https://validator.w3.org/
+
+<head>의 요소
+<title>
+브라우저 탭에서 제목을 정의
+즐겨찾기에 추가 될 때 페이지 제목을 제공
+검색엔진 결과에 페이지 제목을 표시
+
+HTML <meta> 요소
+1. 문자 세트 정의
+<meta charset="UTF=8">
+2. dnpqvpdlwldp eogks tjfaud
+<meta name="description" content="Free Web tutorials">
+3. 검색 엔진에 대한 키워드 정보
+<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+4. 페이지 작성자 정보
+5. 뷰포트 설정(모바일에서 보기 편하게 렌더링 됨)
+
+<link>요소
+<link> 요소는 외부 스타일시트에 연결하는 데 사용
+
+<style> 요소는 단일 HTML 페이지에 대한 스타일 정보를 정의하는 데 사용
+<style>
+body{}
+h1{}
+</style>
